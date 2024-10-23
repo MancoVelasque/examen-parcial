@@ -1,0 +1,209 @@
+body {
+cursor: url('img/cursor.png'), auto;
+margin: 0;
+background-color: rgb(62, 34, 128);
+height: 100vh;
+}
+
+.chicos {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 210px;
+color: white;
+}
+
+#opciones{
+position: absolute;
+display:flex;
+top: 20px;
+left: 558px;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: rgb(73, 31, 141);
+text-align: center;
+}
+#opciones li{
+margin: 0 60px;
+border: 2px solid rgb(255, 255, 255);
+width: 40px;
+height: 40px;
+padding: 6px;
+background-color: aliceblue;
+border-radius: 10px;
+list-style: none;
+cursor: pointer;
+}
+    
+#opciones li:hover{
+color: rgb(176, 161, 245);
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+transition-duration: 300ms;
+}
+.linea{
+border: 6px solid none;
+position: absolute;
+background-color: aliceblue;
+top: 7%;
+left: 49.5%;
+height: 30px;
+width: 27%;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+.cuadro, .cuadrod{
+border: 6px solid none;
+position: absolute;
+background-color: aliceblue;
+top: 7%;
+left: 33%;
+height: 19px;
+width: 1%;
+transform: translate(-50%, -50%);
+border-radius: 100%;
+}
+.cuadrod{
+left: 66.8%;
+}
+
+#notas{
+text-align:center;
+top: 73%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.uno{
+left: 340px; 
+top: 260px;
+position: absolute;  
+z-index: -1; 
+
+}
+ h3, h1{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;    
+}
+
+.dos, .tres, .ropa{
+transform: rotate(-30deg);
+position: absolute;
+top: 100px;
+left: 50px;
+filter: drop-shadow(10px 0px 10px);
+color: rgba(1, 2, 31, 0.692);
+}
+
+.tres{
+transform: rotate(5deg);
+top: 800px;
+left: 83%;
+}
+
+.ropa{
+top: 700px;
+left: -40px;
+}
+
+.dos p {
+    text-align: center;
+    line-height: 22px;
+    transform: scale(1);
+    opacity: 2;
+    animation: fadeOut 15s forwards;
+    color: rgb(245, 208, 45); 
+    box-shadow: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes fadeOut {
+100% {
+transform: scale(0.8);
+opacity: 0;
+}}
+
+.dos img {
+animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+100% {
+transform: rotate(-15deg);
+}}
+
+.dos {
+transition: all .5s ease-in-out;
+}
+
+.tres img{
+animation: rotate 12s linear infinite;
+transform: rotate(-360deg);
+}
+
+#imagenes{
+z-index: 10;
+position: absolute;
+display: flex;
+align-content:space-around;
+align-items: center;
+top: 1100px;
+left: 982px;
+}
+    
+.face, .you{
+right:184px;
+position: relative;
+}
+
+.you{
+right:87px;
+}
+
+.cuad{
+border: 3px solid white;
+position: absolute; 
+top: 1120px;
+left: 49.6%;
+width: 370px;
+height: 50px;
+transform: translate(-50%, -50%);
+border-radius: 10px;
+background-color: rgba(15, 11, 77, 0.678);
+}
+
+.lin, .line{
+border: 2px solid white;
+background-color: white;
+position: absolute;
+top: 1120px;
+left: 46%;
+width: 2px;
+height: 50px;
+transform: translate(-50%, -50%);
+}
+
+.line{
+left: 1015px;
+background-color: aliceblue;   
+}
+
+#opciones .boton{
+background-color: rgb(255, 255, 255);
+border: 2px solid rgb(255, 255, 255);
+color: rgb(176, 161, 245);
+background-color: white;
+transform: scale(1.05);
+box-shadow: 0 0px 15px rgb(0, 255, 234); 
+}
+.merca{
+position: absolute;
+top: 990px;  
+left: 10px;
+transform: rotate(60deg);  
+}
